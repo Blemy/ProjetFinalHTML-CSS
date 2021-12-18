@@ -96,7 +96,7 @@ nav ul li a:hover
 {
     width: 100%;
     height: 700px;
-    background-image: url("site/Gele 2.jpg") ;
+    background-image: url("./Site/Gele 2.jpg") ;
     background-size: 100% 100%;
     overflow: hidden;
     -webkit-animation-name: diapo1 ;
@@ -115,30 +115,17 @@ nav ul li a:hover
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
-@-webkit-keyframes diapo1
+@keyframes diapo1
 {
-    0%{background-image:url("site/Gele 2.jpg") ;}
-    33%{background-image:url("site/kokoye-beach.jpg") ;}
-    66%{background-image:url("site/Labadee-beach.jpg") ;}
+    0%{background-image:url("./Site/Gele 2.jpg") ;}
+    33%{background-image:url("./Site/kokoye-beach.jpg") ;}
+    66%{background-image:url("./Site/Labadee-beach.jpg") ;}
 }
 
-@-moz-keyframes     
-{
-    0%{background-image:url("site/Gele 2.jpg") ;}
-    33%{background-image:url("site/kokoye-beach.jpg") ;}
-    66%{background-image:url("site/Labadee-beach.jpg") ;}
-}
-
-@keyframes
-{
-    0%{ background-image:url("site/Gele 2.jpg") ;}
-    33%{ background-image:url("site/kokoye-beach.jpg") ;}
-    66%{ background-image:url("site/Labadee-beach.jpg");}
-}
 
 #perl2
 {
-    background: url("site/Nuit.png") no-repeat fixed 50% 50%;
+    background: url("./Site/Nuit.png") no-repeat fixed 50% 50%;
     height: 900px;
     background-size: cover;
     overflow: hidden;
