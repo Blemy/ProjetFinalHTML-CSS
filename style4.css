@@ -10,6 +10,7 @@ nav
     height: 100px;
     float: right;
     display: block;
+    outline-color: rgb(251, 0, 0);
 
 }
 .crumbs {
@@ -26,6 +27,7 @@ nav
     list-style: none;
     text-align:center;
     text-transform: initial;
+
     font-size: 2em;
   margin-top: -40px;
   padding-top: -40px;
@@ -41,6 +43,7 @@ nav
 section img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 100%;
+    
 }
 p {
     text-align: justify;
@@ -48,5 +51,6 @@ p {
     font-style: arial;
     margin: 10px;
     padding: 10px;
+    
 }
 

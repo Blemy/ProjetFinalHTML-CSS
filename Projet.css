@@ -4,6 +4,7 @@ body
     padding: 0;
 }
 
+
 ul
 {
     margin: 0;
@@ -92,6 +93,49 @@ nav ul li a:hover
     border-radius: 20px;
 }
 
+@media screen and (max-width: 840px){
+    nav{
+        background-color: red;
+        height: 80px;
+    }
+
+    #Per{
+        display: block;
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px){
+    nav{
+        background-color: green;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 343px){
+    nav{
+        background-color: rgb(116, 167, 116);
+        height: 150px;
+    }
+}
+@media screen and (max-width: 1040px){
+    #Perl2{
+        background: url("./Site/Nuit.png") no-repeat fixed 50% 50%;
+        height: 900px;
+        background-size: cover;
+        overflow: hidden;
+    }
+    #Pre{
+        display: block;
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
+
 #Diaporama1
 {
     width: 100%;
@@ -99,16 +143,6 @@ nav ul li a:hover
     background-image: url("./Site/Gele 2.jpg") ;
     background-size: 100% 100%;
     overflow: hidden;
-    -webkit-animation-name: diapo1 ;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: normal;
-    -moz-animation-name: diapo1 ;
-    -moz-animation-duration: 20s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-direction: normal;
     animation-name: diapo1 ;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -121,8 +155,6 @@ nav ul li a:hover
     33%{background-image:url("./Site/kokoye-beach.jpg") ;}
     66%{background-image:url("./Site/Labadee-beach.jpg") ;}
 }
-
-
 #perl2
 {
     background: url("./Site/Nuit.png") no-repeat fixed 50% 50%;
@@ -148,15 +180,15 @@ h1
     margin: -3px auto;
     background-color: rgb(255, 0, 0);
 }
-pre
+#Pre
 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-
     font-size: 180%;
     color: rgb(0, 0, 0);
+    margin: 2px;
 }
-pre
+#Pre
 {
     background-color: darkgray ;
     opacity: 0.8;
